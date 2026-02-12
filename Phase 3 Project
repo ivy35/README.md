@@ -1,0 +1,34 @@
+# Bank Marketing Term Deposit Prediction – Phase 3 Project
+
+## Overview
+Predict which clients are likely to subscribe to a bank term deposit to help marketing campaigns target efficiently.
+
+## Business Problem
+Marketing is expensive. The bank wants to focus efforts on high-probability clients to increase subscriptions and save costs.
+
+## Dataset
+- Source: UCI Machine Learning Repository – Bank Marketing Dataset  
+- 41,000+ clients with features like age, balance, campaign info, and previous responses  
+- Target: Term deposit subscription (Yes/No)  
+
+## Modeling
+- **Baseline Logistic Regression:** Accuracy 92%, Recall 44%  
+- **Tuned Decision Tree:** Accuracy 91%, Recall 55%, captures non-linear patterns  
+
+## Top Features
+- Number of campaign contacts  
+- Previous positive responses  
+- Account balance  
+- Age  
+- Last contact duration  
+
+## Recommendations
+- Focus marketing on high-probability clients  
+- Optimize campaign contacts (fewer, meaningful)  
+- Use top features to refine campaigns  
+- Update models regularly  
+
+## Next Steps
+- Test other models (Random Forest, Gradient Boosting)  
+- Deploy a dashboard for marketing teams  
+- Retrain models as client behavior changes
