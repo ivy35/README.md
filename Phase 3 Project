@@ -9,11 +9,11 @@ Marketing is expensive. The bank wants to focus efforts on high-probability clie
 ## Dataset
 - Source: UCI Machine Learning Repository – Bank Marketing Dataset  
 - 41,000+ clients with features like age, balance, campaign info, and previous responses  
-- Target: Term deposit subscription (Yes/No)  
+- Target: Term deposit subscription (Yes/No)
 
 ## Modeling
 - **Baseline Logistic Regression:** Accuracy 92%, Recall 44%  
-- **Tuned Decision Tree:** Accuracy 91%, Recall 55%, captures non-linear patterns  
+- **Tuned Decision Tree:** Accuracy 91%, Recall 55%
 
 ## Top Features
 - Number of campaign contacts  
@@ -24,18 +24,17 @@ Marketing is expensive. The bank wants to focus efforts on high-probability clie
 
 ## Recommendations
 - Focus marketing on high-probability clients  
-- Optimize campaign contacts (fewer, meaningful)  
-- Use top features to refine campaigns  
+- Optimize campaign contacts  
+- Use key features to refine campaigns  
 - Update models regularly  
 
 ## Next Steps
-- Test other models (Random Forest, Gradient Boosting)  
+- Test Random Forest and Gradient Boosting  
 - Deploy a dashboard for marketing teams  
-- Retrain models as client behavior changes
+- Retrain models as behavior changes  
 
 ## Project Files
-
 - [Jupyter Notebook](BankMarketing_Phase3.ipynb)
-- [Presentation Slides](BankMarketing_Phase3_Slides.pdf)
+
 
 
